@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="left">
+    <div class="headline">Learn to code by watching others</div>
+
+    <div class="lefttext">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. </div>
+  </div>
+  <div class="right">
+      <div class="top">
+        <div class="lefthalf">Try it free 7 days </div><div class="righthalf"> then $20/mo. thereafter</div>
+      </div>
+      <div class="bottom">
+        <form>
+          <input type="text" placeholder="First Name" class="firstname">
+          <div class="firstnameerr"></div>
+          <input type="text" placeholder="Last Name " class="lastname">
+          <div class="lastnameerr"></div>
+          <input type="email" placeholder=" Email Address" class="emailadd">
+          <div class="emailerr"></div>
+          <input type="password" placeholder=" Password" class="passwor">
+          <div class="passworderr"></div>
+        </form>
+        
+        <button class="claim" onclick="claimfree()">CLAIM YOUR FREE TRAIL </button> 
+        <div class="footer"> By clicking the button, you are agreeing to our <span id="highlight">Terms and Services</span></div>
+       
+      </div>
+  </div>
+</div>
+ 
+
+ <script src="main.js"></script>
+</body>
+</html>
